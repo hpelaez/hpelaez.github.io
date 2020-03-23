@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1584996745,
-    'checksum' => '82e6a09a19aff410f85a9ab29ea224e4',
+    'timestamp' => 1584998495,
+    'checksum' => 'dbece986b79f95d4b7f52b0fd22e2362',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -55,7 +55,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1584992468
+                'modified' => 1584998495
             ],
             'themes/g5_hydrogen' => [
                 'file' => 'user/config/themes/g5_hydrogen.yaml',
@@ -774,8 +774,8 @@ node_modules'
             'languages' => [
                 'supported' => [
                     0 => 'es',
-                    1 => 'fr',
-                    2 => 'en'
+                    1 => 'en',
+                    2 => 'fr'
                 ],
                 'default_lang' => 'es',
                 'include_default_lang' => true,

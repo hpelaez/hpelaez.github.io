@@ -1,5 +1,6 @@
 ---
-title: Maestros
+title: Master
+menu: Master
 slug: master
 ---
 
