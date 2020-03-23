@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/data/gantry5/themes/g5_helium/config/_error/index.yaml',
-    'modified' => 1584937966,
+    'modified' => 1584985709,
     'data' => [
         'name' => '_error',
-        'timestamp' => 1584937966,
+        'timestamp' => 1584985709,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',

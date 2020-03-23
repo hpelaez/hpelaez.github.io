@@ -1,6 +1,7 @@
 ---
 title: Contacto
 menu: Contacto
+slug: contact-us
 content:
     items: '@self.modular'
     order:
@@ -8,38 +9,37 @@ content:
         dir: asc
 form:
     name: contact-form
-    classes: 'test'
     fields:
-        -   
+        -
             name: Choice
-            label: Seleccione una de las siguientes opciones
+            label: 'Seleccione una de las siguientes opciones'
             type: radio
-            default: 
+            default: null
             options:
-                mason: Soy mason/a y quisiera ingresar a su logia
-                nomason: No soy mason/a y quisiera ingresar a su logia
-                info: Solo quisiera saber mas sobre la masoneria
+                mason: 'Soy mason/a y quisiera ingresar a su logia'
+                nomason: 'No soy mason/a y quisiera ingresar a su logia'
+                info: 'Solo quisiera saber mas sobre la masoneria'
             validate:
                 required: true
         -
             name: firstname
-            label: Name
-            placeholder: 'Enter your name'
+            label: Nombre y Apellidos
+            placeholder: 'Escriba su nombre'
             autofocus: 'on'
             autocomplete: 'on'
             type: text
         -
             name: phone
-            label: Phone
-            placeholder: 'Enter your phone number (Ex: 514-555 5555)'
+            label: Teléphono
+            placeholder: 'Escriba su teléfono (Ex: 514-555 5555)'
             autocomplete: 'on'
             type: tel
             validate:
                 pattern: '[0-9]{3}-[0-9]{3} [0-9]{4}'
         -
             name: email
-            label: Email
-            placeholder: 'Enter your email address'
+            label: Correo Web
+            placeholder: 'Escriba su dirección de correo'
             autocomplete: 'on'
             type: email
             validate:
@@ -47,32 +47,31 @@ form:
                 required: true
         -
             name: Message
-            label: Message
-            placeholder: Enter your message
+            label: Mensaje
+            placeholder: 'Escriba su mensaje'
             type: textarea
-         
     buttons:
         -
             type: submit
-            value: Enviar información
+            value: 'Enviar información'
             classes: 'button button-square button-small'
     process:
         -
             email:
-                from: "{{ config.plugins.email.from }}"
+                from: '{{ config.plugins.email.from }}'
                 to:
-                - "{{ config.plugins.email.to }}"
-                - "{{ form.value.email }}"
-                subject: "[Site Contact Form] {{ form.value.name|e }}"
-                body: "{% include 'forms/data.html.twig' %}"
+                    - '{{ config.plugins.email.to }}'
+                    - '{{ form.value.email }}'
+                subject: '[Site Contact Form] {{ form.value.name|e }}'
+                body: '{% include ''forms/data.html.twig'' %}'
         -
             save:
                 fileprefix: contact-
                 dateformat: Ymd-His-u
                 extension: txt
-                body: "{% include 'forms/data.txt.twig' %}"
+                body: '{% include ''forms/data.txt.twig'' %}'
         -
-            message: Muchas gracias por confiar en nosotros!
+            message: 'Muchas gracias por confiar en nosotros!'
         -
             display: thankyou
 ---

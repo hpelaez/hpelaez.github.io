@@ -8,3 +8,9 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
+/* line 1, user/themes/g5_helium/scss/custom.scss */
+/* line 2, user/themes/g5_helium/scss/custom.scss */
+#g-intro h1 {
+  color: 0;
+}
+/*# sourceMappingURL=custom.css.map */

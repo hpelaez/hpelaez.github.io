@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584937906,
-    'checksum' => '810f70120fb614de1bb634658c4f4a8c',
+    'timestamp' => 1584981903,
+    'checksum' => '2b9f48e891960e4f30ab985e18c0274c',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_body_only' => [
             'index' => [
@@ -17,27 +17,27 @@ return [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1584933946
+                'modified' => 1584978025
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1584933946
+                'modified' => 1584978025
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
-                'modified' => 1584935281
+                'modified' => 1584976529
             ],
             'page/body' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/body.yaml',
-                'modified' => 1584935281
+                'modified' => 1584976529
             ],
             'page/fontawesome' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/fontawesome.yaml',
-                'modified' => 1584935281
+                'modified' => 1584976529
             ],
             'page/head' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/head.yaml',
-                'modified' => 1584935281
+                'modified' => 1584976529
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
@@ -325,6 +325,10 @@ return [
                 'icon' => 'fa fa-chevron-up fa-fw',
                 'content' => 'Back to top'
             ],
+            'uikit' => [
+                'enabled' => true,
+                'jslocation' => 'footer'
+            ],
             'analytics' => [
                 'enabled' => true,
                 'ua' => [
@@ -556,7 +560,15 @@ return [
                 ],
                 'head_bottom' => '',
                 'atoms' => [
-                    
+                    0 => [
+                        'id' => 'uikit-3649',
+                        'type' => 'uikit',
+                        'title' => 'UIkit for Gantry5',
+                        'attributes' => [
+                            'enabled' => '1',
+                            'jslocation' => 'footer'
+                        ]
+                    ]
                 ]
             ]
         ],

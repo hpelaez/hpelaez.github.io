@@ -191,36 +191,45 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-weight: 700;
 }
-/* line 20, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 18, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+h1:after {
+  content: '';
+  display: block;
+  max-width: 100px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-color: #4db2b3;
+}
+/* line 28, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 h4 {
   font-size: 1.25rem;
 }
-/* line 25, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 33, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 blockquote {
   border-left: 10px solid #e0e0e5;
 }
-/* line 28, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 36, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 blockquote p {
   font-size: 1.1rem;
   color: #999;
 }
-/* line 33, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 41, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 blockquote cite {
   display: block;
   text-align: right;
   color: #666;
   font-size: 1.2rem;
 }
-/* line 42, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 50, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 code, kbd, pre, samp {
   font-family: "Menlo", "Monaco", monospace;
 }
-/* line 49, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 57, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 code {
   background: #f9f2f4;
   color: #9c1d3d;
 }
-/* line 54, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 62, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 pre {
   padding: 1rem;
   margin: 2rem 0;
@@ -230,17 +239,17 @@ pre {
   line-height: 1.15;
   font-size: 0.9rem;
 }
-/* line 63, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 71, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 pre code {
   color: #237794;
   background: inherit;
   font-size: 0.9rem;
 }
-/* line 69, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 77, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 pre.prettyprint {
   border-color: rgba(0, 0, 0, 0.1) !important;
 }
-/* line 75, user/themes/g5_helium/scss/helium/styles/_typography.scss */
+/* line 83, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 hr {
   margin: 1.5rem 0;
   border-bottom: 1px solid #e0e0e5;

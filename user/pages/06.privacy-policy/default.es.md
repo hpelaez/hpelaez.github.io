@@ -1,9 +1,10 @@
 ---
 title: 'Politica de privacidad'
 menu: 'Política de privacidad'
+slug: privacy-policy
 ---
 
-# Política de Privacidad  
+# Política de privacidad  
 
 Efectivo a partir de la siguiente fecha: 01 de Noviembre del año 2018.
 

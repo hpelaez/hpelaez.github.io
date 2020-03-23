@@ -1,3 +1,10 @@
 meta: {  }
 head_bottom: ''
-atoms: {  }
+atoms:
+  -
+    id: uikit-3649
+    type: uikit
+    title: 'UIkit for Gantry5'
+    attributes:
+      enabled: '1'
+      jslocation: footer

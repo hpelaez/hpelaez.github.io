@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/data/gantry5/themes/g5_helium/config/menu/mainmenu.yaml',
-    'modified' => 1584937773,
+    'modified' => 1584982447,
     'data' => [
         'settings' => [
             'title' => 'Mainmenu'
@@ -11,10 +11,10 @@ return [
             'home' => '',
             'about-us' => '',
             'biography-mozart' => '',
-            'homenaje' => '',
             'faq' => '',
-            'politica-de-privacidad' => '',
-            'miembros' => [
+            'tributes' => '',
+            'privacy-policy' => '',
+            'members' => [
                 'aprendiz' => '',
                 'companero' => '',
                 'maestros' => ''
@@ -37,7 +37,7 @@ return [
                 'enabled' => true,
                 'anchor_class' => ''
             ],
-            'homenaje' => [
+            'tributes' => [
                 'rel' => '',
                 'enabled' => true,
                 'anchor_class' => ''
@@ -47,34 +47,27 @@ return [
                 'enabled' => true,
                 'anchor_class' => ''
             ],
-            'politica-de-privacidad' => [
+            'privacy-policy' => [
                 'rel' => '',
                 'enabled' => true,
                 'anchor_class' => ''
             ],
-            'miembros' => [
-                'enabled' => '1',
-                'attributes' => [
-                    
-                ],
-                'link_attributes' => [
-                    
-                ],
-                'dropdown_dir' => 'right',
-                'dropdown_hide' => '0',
-                'width' => 'auto'
-            ],
-            'miembros/aprendiz' => [
+            'members' => [
                 'rel' => '',
                 'enabled' => true,
                 'anchor_class' => ''
             ],
-            'miembros/companero' => [
+            'members/aprendiz' => [
                 'rel' => '',
                 'enabled' => true,
                 'anchor_class' => ''
             ],
-            'miembros/maestros' => [
+            'members/companero' => [
+                'rel' => '',
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'members/maestros' => [
                 'rel' => '',
                 'enabled' => true,
                 'anchor_class' => ''

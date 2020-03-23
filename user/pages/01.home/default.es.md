@@ -2,11 +2,12 @@
 title: 'La masonería'
 media_order: 'LOGO-SIN-BRILLO.png,DROIT-HUMAIN-COLOR.jpg,tool-homepage.jpg'
 menu: Inicio
+slug: home
 ---
 
 # La masonería
 
-![](tool-homepage.jpg)  
+![mason-tools](tool-homepage.jpg?cropResize=500,500)  
 
 Como todo tiene que tener un origen certero para ser creíble, los historiadores dan como cierto el año de 1717 como el inicio de la Masonería Moderna. Trescientos años de evolución después de un origen venido de la llamada Masonería Operativa, de los oficios de la construcción de catedrales y de otro tipo de edificaciones religiosas, laicas o civiles como fortalezas o castillos, que fueron erigidas por miembros de las corporaciones, guildas o gremios de talladores, canteros y albañiles asalariados de la Edad Media, cuyas ramificaciones se extendían desde el Medio Oriente a toda Europa Occidental. De igual manera, hay que tener en cuenta que estudiosos de las fuentes históricas, literarias, filosóficas y sociológicas de la Masonería y de la tesis de su transición, como los Quatuor Coronati, afirman que la Masonería Moderna es solo una etapa histórica más en la evolución de esta institución. 
 

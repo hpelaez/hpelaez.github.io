@@ -2,9 +2,10 @@
 title: '¿Quiénes somos?'
 media_order: LOGO-DARKENED.png
 menu: '¿Quiénes somos?'
+slug: about
 ---
 
-![logo](LOGO-DARKENED.png?resize=200,200&class='test')  
+![logo-logia](LOGO-DARKENED.png?cropResize=200,200)  
 
 **R:.L:. No.1740 W.A. MOZART
 Or:. de Montreal

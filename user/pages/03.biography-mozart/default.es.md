@@ -2,11 +2,12 @@
 title: 'Biografía Wolfgang Amadeus Mozart'
 media_order: mozart-2441276_1920.jpg
 menu: 'Biografía Mozart'
+slug: biography
 ---
 
 # Biografía Wolfgang Amadeus Mozart
 
- ![](mozart-2441276_1920.jpg)
+ ![mozart](mozart-2441276_1920.jpg?cropResize=500,500)
  
 Desde los 3 años de edad, Mozart se concentro prácticamente a la música, teniendo como profesor a su padre músico Leopold Mozart. A la edad de 6 años compone sus primeras obras.La Logia Mozart, debe su nombre al famoso músico Johannes Chysostomus Theophilus Wolfgangus Amadeus Mozart o Wolfgang Amadeus Mozart. (27 de enero 1756 al 5 de diciembre de 1791). Fallece  a los 35 años.
 

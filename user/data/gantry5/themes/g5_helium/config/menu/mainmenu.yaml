@@ -4,10 +4,10 @@ ordering:
   home: ''
   about-us: ''
   biography-mozart: ''
-  homenaje: ''
   faq: ''
-  politica-de-privacidad: ''
-  miembros:
+  tributes: ''
+  privacy-policy: ''
+  members:
     aprendiz: ''
     companero: ''
     maestros: ''
@@ -25,7 +25,7 @@ items:
     rel: ''
     enabled: true
     anchor_class: ''
-  homenaje:
+  tributes:
     rel: ''
     enabled: true
     anchor_class: ''
@@ -33,26 +33,23 @@ items:
     rel: ''
     enabled: true
     anchor_class: ''
-  politica-de-privacidad:
+  privacy-policy:
     rel: ''
     enabled: true
     anchor_class: ''
-  miembros:
-    enabled: '1'
-    attributes: {  }
-    link_attributes: {  }
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-  miembros/aprendiz:
+  members:
     rel: ''
     enabled: true
     anchor_class: ''
-  miembros/companero:
+  members/aprendiz:
     rel: ''
     enabled: true
     anchor_class: ''
-  miembros/maestros:
+  members/companero:
+    rel: ''
+    enabled: true
+    anchor_class: ''
+  members/maestros:
     rel: ''
     enabled: true
     anchor_class: ''

@@ -33,7 +33,7 @@ layout:
   /footer/:
     -
       - copyright-4677
-  /offcanvas/:
+  offcanvas:
     -
       - mobile-menu-1280
 structure:
@@ -41,6 +41,8 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      variations: ''
   header:
     attributes:
       boxed: ''
@@ -53,7 +55,7 @@ structure:
       variations: ''
       extra:
         -
-          style: 'padding: 20px 0;'
+          style: 'padding: 20px 0'
   features:
     type: section
     attributes:
@@ -105,7 +107,11 @@ structure:
           style: 'padding: 20px 0;'
   offcanvas:
     attributes:
-      boxed: ''
+      position: g-offcanvas-left
+      class: ''
+      extra: {  }
+      swipe: '1'
+      css3animation: '1'
 content:
   logo-6576:
     title: 'Logo / Image'

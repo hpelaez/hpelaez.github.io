@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1584937966,
+    'modified' => 1584985709,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -70,7 +70,7 @@ return [
                     0 => 'copyright-4677'
                 ]
             ],
-            '/offcanvas/' => [
+            'offcanvas' => [
                 0 => [
                     0 => 'mobile-menu-1280'
                 ]
@@ -80,7 +80,9 @@ return [
             'navigation' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '',
+                    'class' => '',
+                    'variations' => ''
                 ]
             ],
             'header' => [
@@ -97,7 +99,7 @@ return [
                     'variations' => '',
                     'extra' => [
                         0 => [
-                            'style' => 'padding: 20px 0;'
+                            'style' => 'padding: 20px 0'
                         ]
                     ]
                 ]
@@ -178,7 +180,13 @@ return [
             ],
             'offcanvas' => [
                 'attributes' => [
-                    'boxed' => ''
+                    'position' => 'g-offcanvas-left',
+                    'class' => '',
+                    'extra' => [
+                        
+                    ],
+                    'swipe' => '1',
+                    'css3animation' => '1'
                 ]
             ]
         ],

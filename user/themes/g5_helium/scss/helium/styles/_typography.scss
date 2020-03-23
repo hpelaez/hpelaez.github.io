@@ -15,6 +15,14 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     font-weight: $font-weight-bold;
+    &:after {
+        content: '';
+        display: block;
+        max-width: 100px;
+        border-bottom-width: 4px;
+        border-bottom-style: solid;
+        border-color: $link-regular;
+    }
 }
 
 h4 {
