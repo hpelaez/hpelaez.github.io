@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/config/plugins/gantry5.yaml',
-    'modified' => 1584764151,
+    'modified' => 1584981974,
     'data' => [
         'enabled' => true,
         'production' => false,

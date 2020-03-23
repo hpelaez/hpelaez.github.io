@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/accounts/hpelaez.yaml',
-    'modified' => 1584842755,
+    'modified' => 1584990570,
     'data' => [
         'state' => 'enabled',
         'email' => 'henry.pelaez24@gmail.com',
@@ -40,6 +40,6 @@ return [
             
         ],
         'info' => NULL,
-        'groups' => NULL
+        'groups' => 'administrators'
     ]
 ];

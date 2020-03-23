@@ -2,7 +2,7 @@
 title: 'La masonería'
 media_order: 'LOGO-SIN-BRILLO.png,DROIT-HUMAIN-COLOR.jpg,tool-homepage.jpg'
 menu: Inicio
-slug: home
+slug: inicio
 ---
 
 # La masonería

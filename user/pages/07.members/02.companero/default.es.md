@@ -1,4 +1,5 @@
 ---
 title: Compañero
+slug: companero
 ---
 

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1584763706,
-    'checksum' => '1ac904215513f0f53597dda4b6be4c2d',
+    'timestamp' => 1584992748,
+    'checksum' => 'fe7ad6f6348c29e5d9da045655e5655d',
     'files' => [
         'system/languages' => [
             'ar' => [
@@ -166,6 +166,10 @@ return [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/languages.yaml',
                 'modified' => 1584628258
+            ],
+            'plugins/language-selector' => [
+                'file' => 'user/plugins/language-selector/languages.yaml',
+                'modified' => 1584992747
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/languages.yaml',
@@ -2499,6 +2503,30 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'LEVEL_CLASSES_HELP' => 'The classes to use for each level of notices depth',
                 'LEVEL_CLASSES_PLACEHOLDER' => 'e.g. yellow, red, blue, green'
             ],
+            'PLUGINS' => [
+                'LANGUAGE_SELECTOR' => [
+                    'PLUGIN_STATUS' => 'Plugin status',
+                    'BUILT_IN_CSS' => 'Use built in CSS',
+                    'UNTRANSLATED_PAGES' => [
+                        'LABEL' => 'Untranslated pages behavior',
+                        'HELP' => 'Determine what to do with a language link when the current page doesn\'t exist in that language or it exists but it\'s not published.',
+                        'OPT_NONE' => 'Show language (default)',
+                        'OPT_REDIR' => 'Show language, link to home route',
+                        'OPT_HIDE' => 'Hide language'
+                    ],
+                    'BUTTON_DISPLAY' => [
+                        'LABEL' => 'Button Display',
+                        'HELP' => 'Define how button of selected language will be displayed'
+                    ],
+                    'SELECT_DISPLAY' => [
+                        'LABEL' => 'Selector Display',
+                        'HELP' => 'Define how language selector will be displayed',
+                        'OPT_DEFAULT' => 'Flag + Language name',
+                        'OPT_FLAG' => 'Only the flag',
+                        'OPT_NAME' => 'Only the language name'
+                    ]
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.',
                 'NONCE_NOT_VALIDATED' => 'Oops there was a problem, please check your input and submit the form again.',
@@ -4760,6 +4788,30 @@ L\'**authentification à deux facteurs** est activée sur ce compte. Veuillez ut
                 'BACKUPS_PROFILE_SCHEDULE_AT' => 'Exécuter la planification',
                 'COMMAND' => 'Commande',
                 'EXTRA_ARGUMENTS' => 'Arguments supplémentaires'
+            ],
+            'PLUGINS' => [
+                'LANGUAGE_SELECTOR' => [
+                    'PLUGIN_STATUS' => 'Statut du plugin',
+                    'BUILT_IN_CSS' => 'Utiliser CSS du plugin',
+                    'UNTRANSLATED_PAGES' => [
+                        'LABEL' => 'Comportement des pages non-traduites',
+                        'HELP' => 'Définit le comportement des liens lorsque la page n\'existe pas dans la langue courante, ou bien existe mais non publié',
+                        'OPT_NONE' => 'Affiche le langage (par défaut)',
+                        'OPT_REDIR' => 'Affiche le langage, lié à l\'URL de base',
+                        'OPT_HIDE' => 'Cache le langage'
+                    ],
+                    'BUTTON_DISPLAY' => [
+                        'LABEL' => 'Affichage du boutton',
+                        'HELP' => 'Définit l\'affichage du bouton de language sélectioné'
+                    ],
+                    'SELECT_DISPLAY' => [
+                        'LABEL' => 'Affichage du sélecteur',
+                        'HELP' => 'Définit l\'affichage du sélecteur de language',
+                        'OPT_DEFAULT' => 'Drapeau + Nom de la langue',
+                        'OPT_FLAG' => 'Seulement le drapeau',
+                        'OPT_NAME' => 'Seulement le nom de la langue'
+                    ]
+                ]
             ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Formulaire non validé. Un ou plusieurs champs obligatoires sont manquants.',
@@ -19982,6 +20034,30 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 'ROUTE_CANONICAL' => 'Route canonica',
                 'ROUTE_ALIASES' => 'Alias della route'
             ],
+            'PLUGINS' => [
+                'LANGUAGE_SELECTOR' => [
+                    'PLUGIN_STATUS' => 'Status del plugin',
+                    'BUILT_IN_CSS' => 'Utilizzare CSS del plugin',
+                    'UNTRANSLATED_PAGES' => [
+                        'LABEL' => 'Comportamento delle pagine non-tradotte',
+                        'HELP' => 'Determina il comportamento del link quando la pagina attuale non esiste in quella lingua, oppure esiste ma non è stata pubblicata.',
+                        'OPT_NONE' => 'Esibire lingua (default)',
+                        'OPT_REDIR' => 'Esibire lingua, linkare all\'URL di base',
+                        'OPT_HIDE' => 'Nascondere lingua'
+                    ],
+                    'BUTTON_DISPLAY' => [
+                        'LABEL' => 'Presentazione del tasto',
+                        'HELP' => 'Definisce la presentazione del tasto della lingua selezionata'
+                    ],
+                    'SELECT_DISPLAY' => [
+                        'LABEL' => 'Presentazione del selettore',
+                        'HELP' => 'Definisce la presentazione del selettore di lingua',
+                        'OPT_DEFAULT' => 'Bandiera + Nome della lingua',
+                        'OPT_FLAG' => 'Soltanto la bandiera',
+                        'OPT_NAME' => 'Soltanto il nome della lingua'
+                    ]
+                ]
+            ],
             'PLUGIN_FORM' => [
                 'NOT_VALIDATED' => 'Il Form risulta invalido. Uno o più campi risultano omessi.',
                 'NONCE_NOT_VALIDATED' => 'Oops è stato riscontrato un errore, si prega di ricontrollare i dati inseriti e provare di nuovo.',
@@ -30034,6 +30110,32 @@ title: %1$s
                     4 => '星期五',
                     5 => '星期六',
                     6 => '星期日'
+                ]
+            ]
+        ],
+        'pt-br' => [
+            'PLUGINS' => [
+                'LANGUAGE_SELECTOR' => [
+                    'PLUGIN_STATUS' => 'Status do plugin',
+                    'BUILT_IN_CSS' => 'Utilizar CSS do plugin',
+                    'UNTRANSLATED_PAGES' => [
+                        'LABEL' => 'Comportamento das páginas não-traduzidas',
+                        'HELP' => 'Determina o comportamento do link quando a página atual não existe naquela língua, ou existe mas não está publicada.',
+                        'OPT_NONE' => 'Mostrar língua (default)',
+                        'OPT_REDIR' => 'Mostrar língua, linkar para o URL de base',
+                        'OPT_HIDE' => 'Esconder língua'
+                    ],
+                    'BUTTON_DISPLAY' => [
+                        'LABEL' => 'Apresentação do botão',
+                        'HELP' => 'Define a apresentação do botão da língua selecionada'
+                    ],
+                    'SELECT_DISPLAY' => [
+                        'LABEL' => 'Apresentação do seletor',
+                        'HELP' => 'Define a apresentação do seletor de língua',
+                        'OPT_DEFAULT' => 'Bandeira + Nome da língua',
+                        'OPT_FLAG' => 'Apenas a bandeira',
+                        'OPT_NAME' => 'Apenas o nome da língua'
+                    ]
                 ]
             ]
         ],

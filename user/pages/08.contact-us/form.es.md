@@ -1,7 +1,7 @@
 ---
 title: Contacto
 menu: Contacto
-slug: contact-us
+slug: contacto
 content:
     items: '@self.modular'
     order:

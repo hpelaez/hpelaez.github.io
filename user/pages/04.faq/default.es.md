@@ -1,7 +1,7 @@
 ---
 title: 'Preguntas frecuentes'
 menu: 'Preguntas frecuentes'
-slug: faq
+slug: preguntas-frecuentes
 ---
 
 # Preguntas Frecuentes 

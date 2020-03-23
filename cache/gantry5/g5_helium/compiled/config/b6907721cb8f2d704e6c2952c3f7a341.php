@@ -1,24 +1,24 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584935717,
-    'checksum' => '550cce0fb097858dcdbd5ccc61353ec2',
+    'timestamp' => 1584993532,
+    'checksum' => '2b474d63a683965cfaafc260205bdb7d',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_error/index.yaml',
-                'modified' => 1584935686
+                'modified' => 1584985709
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_error/layout.yaml',
-                'modified' => 1584935686
+                'modified' => 1584985709
             ]
         ]
     ],
     'data' => [
         'index' => [
             'name' => '_error',
-            'timestamp' => 1584935686,
+            'timestamp' => 1584985709,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -40,9 +40,12 @@ return [
                 'mainbar' => 'Mainbar',
                 'sidebar' => 'Sidebar',
                 'footer' => 'Footer',
-                'offcanvas' => 'Untitled'
+                'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
+                'content' => [
+                    'system-content-1587' => 'Page Content'
+                ],
                 'spacer' => [
                     'spacer-3277' => 'Spacer',
                     'spacer-3316' => 'Spacer'
@@ -52,9 +55,6 @@ return [
                 ],
                 'menu' => [
                     'menu-2646' => 'Menu'
-                ],
-                'content' => [
-                    'system-content-1587' => 'Page Content'
                 ],
                 'copyright' => [
                     'copyright-1205' => 'Copyright'
@@ -66,14 +66,14 @@ return [
             'inherit' => [
                 'default' => [
                     'navigation' => 'navigation',
+                    'system-content-1587' => 'system-content-5838',
+                    'footer' => 'footer',
+                    'offcanvas' => 'offcanvas',
                     'spacer-3277' => 'spacer-1481',
                     'logo-5479' => 'logo-6576',
                     'spacer-3316' => 'spacer-5683',
                     'menu-2646' => 'menu-4389',
-                    'system-content-1587' => 'system-content-5838',
-                    'footer' => 'footer',
                     'copyright-1205' => 'copyright-4677',
-                    'offcanvas' => 'offcanvas',
                     'mobile-menu-3985' => 'mobile-menu-1280'
                 ]
             ]

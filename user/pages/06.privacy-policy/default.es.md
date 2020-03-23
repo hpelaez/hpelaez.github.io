@@ -1,7 +1,7 @@
 ---
 title: 'Politica de privacidad'
 menu: 'Política de privacidad'
-slug: privacy-policy
+slug: politica-de-privacidad
 ---
 
 # Política de privacidad  

@@ -2,7 +2,7 @@
 title: Homenajes
 media_order: 'Bejarano-photo.jpg,maestro-ulloa-photo.jpg'
 menu: Homenajes
-slug: tributes
+slug: homenajes
 ---
 
 # Homenajes

@@ -2,9 +2,9 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/data/notifications/67c46c63ec3aa41ae7af2cc9e55d7465.yaml',
-    'modified' => 1584985050,
+    'modified' => 1584996199,
     'data' => [
-        'last_checked' => 1584985050,
+        'last_checked' => 1584996199,
         'data' => [
             'feed' => [
                 0 => [

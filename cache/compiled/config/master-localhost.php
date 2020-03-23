@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1584981974,
-    'checksum' => '8ad8ae8dba99deb6cec1a00e30e5fa45',
+    'timestamp' => 1584996745,
+    'checksum' => '82e6a09a19aff410f85a9ab29ea224e4',
     'files' => [
         'user/config' => [
             'backups' => [
                 'file' => 'user/config/backups.yaml',
                 'modified' => 1584763705
+            ],
+            'groups' => [
+                'file' => 'user/config/groups.yaml',
+                'modified' => 1584990966
             ],
             'media' => [
                 'file' => 'user/config/media.yaml',
@@ -29,6 +33,10 @@ return [
                 'file' => 'user/config/plugins/gantry5.yaml',
                 'modified' => 1584981974
             ],
+            'plugins/language-selector' => [
+                'file' => 'user/config/plugins/language-selector.yaml',
+                'modified' => 1584996745
+            ],
             'scheduler' => [
                 'file' => 'user/config/scheduler.yaml',
                 'modified' => 1584763705
@@ -47,7 +55,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1584944615
+                'modified' => 1584992468
             ],
             'themes/g5_hydrogen' => [
                 'file' => 'user/config/themes/g5_hydrogen.yaml',
@@ -84,6 +92,10 @@ return [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
                 'modified' => 1584628258
+            ],
+            'plugins/language-selector' => [
+                'file' => 'user/plugins/language-selector/language-selector.yaml',
+                'modified' => 1584992747
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
@@ -127,6 +139,13 @@ return [
                     2 => 'blue',
                     3 => 'green'
                 ]
+            ],
+            'language-selector' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'untranslated_pages_behavior' => 'none',
+                'button_display' => 'default',
+                'select_display' => 'default'
             ],
             'form' => [
                 'enabled' => true,
@@ -954,6 +973,33 @@ node_modules'
             'strict_mode' => [
                 'yaml_compat' => true,
                 'twig_compat' => true
+            ]
+        ],
+        'groups' => [
+            'editor' => [
+                'groupname' => 'editor',
+                'icon' => 'users',
+                'readableName' => 'Registered Users',
+                'description' => 'The group of registered users',
+                'access' => [
+                    'site' => [
+                        'login' => true
+                    ]
+                ]
+            ],
+            'administrators' => [
+                'groupname' => 'administrators',
+                'readableName' => 'Administrators',
+                'description' => 'The group of administrators',
+                'icon' => 'user',
+                'access' => [
+                    'admin' => [
+                        'login' => true
+                    ],
+                    'site' => [
+                        'login' => true
+                    ]
+                ]
             ]
         ],
         'scheduler' => [

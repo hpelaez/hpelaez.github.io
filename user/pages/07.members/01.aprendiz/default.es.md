@@ -1,4 +1,5 @@
 ---
 title: Aprendiz
+slug: aprendiz
 ---
 

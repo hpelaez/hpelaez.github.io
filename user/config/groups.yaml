@@ -1,0 +1,19 @@
+editor:
+    groupname: editor
+    icon: users
+    readableName: 'Registered Users'
+    description: 'The group of registered users'
+    access:
+      site:
+        login: true
+
+administrators:
+    groupname: administrators
+    readableName: Administrators
+    description: 'The group of administrators'
+    icon: user
+    access:
+        admin:
+            login: true
+        site:
+            login: true

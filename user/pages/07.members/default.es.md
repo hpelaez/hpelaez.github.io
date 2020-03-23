@@ -1,7 +1,7 @@
 ---
 title: Miembros
 menu: Miembros
-slug: members
+slug: miembros
 ---
 
 # Miembros

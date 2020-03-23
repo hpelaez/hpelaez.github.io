@@ -1,27 +1,27 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584985712,
-    'checksum' => '1893919e6d964cce8046e670c157ef40',
+    'timestamp' => 1584996469,
+    'checksum' => '813efa97744a46a33611fedd79bb56fd',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_error/index.yaml',
-                'modified' => 1584985709
+                'modified' => 1584996465
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/_error/layout.yaml',
-                'modified' => 1584985709
+                'modified' => 1584996465
             ]
         ],
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1584985709
+                'modified' => 1584996465
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1584985709
+                'modified' => 1584996465
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -639,7 +639,7 @@ return [
         ],
         'index' => [
             'name' => '_error',
-            'timestamp' => 1584985709,
+            'timestamp' => 1584996465,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -668,8 +668,12 @@ return [
                     'system-content-1587' => 'Page Content'
                 ],
                 'spacer' => [
+                    'spacer-7667' => 'Spacer',
                     'spacer-3277' => 'Spacer',
                     'spacer-3316' => 'Spacer'
+                ],
+                'custom' => [
+                    'custom-1611' => 'Custom HTML'
                 ],
                 'logo' => [
                     'logo-5479' => 'Logo / Image'
@@ -690,6 +694,7 @@ return [
                     'system-content-1587' => 'system-content-5838',
                     'footer' => 'footer',
                     'offcanvas' => 'offcanvas',
+                    'custom-1611' => 'custom-5339',
                     'spacer-3277' => 'spacer-1481',
                     'logo-5479' => 'logo-6576',
                     'spacer-3316' => 'spacer-5683',

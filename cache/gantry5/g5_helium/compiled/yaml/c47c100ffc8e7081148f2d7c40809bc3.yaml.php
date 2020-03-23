@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-    'modified' => 1584985709,
+    'modified' => 1584996465,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -13,11 +13,15 @@ return [
         'layout' => [
             '/navigation/' => [
                 0 => [
+                    0 => 'spacer-spacer-3624 85',
+                    1 => 'custom-5339 15'
+                ],
+                1 => [
                     0 => 'spacer-1481 42',
                     1 => 'logo-6576 16',
                     2 => 'spacer-5683 42'
                 ],
-                1 => [
+                2 => [
                     0 => 'menu-4389'
                 ]
             ],
@@ -191,6 +195,14 @@ return [
             ]
         ],
         'content' => [
+            'custom-5339' => [
+                'title' => 'Custom HTML',
+                'attributes' => [
+                    'html' => '{% include \'partials/language-selector.html.twig\' %}
+',
+                    'twig' => '1'
+                ]
+            ],
             'logo-6576' => [
                 'title' => 'Logo / Image',
                 'attributes' => [

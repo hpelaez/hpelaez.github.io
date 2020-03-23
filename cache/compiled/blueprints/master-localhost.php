@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1584972191,
-    'checksum' => '83df8d05dd6c20eac8f04e0144445b5c',
+    'timestamp' => 1584996238,
+    'checksum' => '5a1d4cc117c67d7aa62a8e1761758bae',
     'files' => [
         'user/plugins/admin/blueprints/config' => [
             'media' => [
@@ -44,6 +44,10 @@ return [
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
                 'modified' => 1584628258
+            ],
+            'plugins/language-selector' => [
+                'file' => 'user/plugins/language-selector/blueprints.yaml',
+                'modified' => 1584992747
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
@@ -2424,6 +2428,79 @@ return [
                 'name' => 'plugins.markdown-notices.level_classes',
                 'validation' => 'strict'
             ],
+            'plugins.language-selector' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.language-selector.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.language-selector.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.language-selector.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.BUILT_IN_CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.language-selector.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.language-selector.untranslated_pages_behavior' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.LABEL',
+                'default' => 'none',
+                'options' => [
+                    'none' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_NONE',
+                    'redirect' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_REDIR',
+                    'hide' => 'PLUGINS.LANGUAGE_SELECTOR.UNTRANSLATED_PAGES.OPT_HIDE'
+                ],
+                'name' => 'plugins.language-selector.untranslated_pages_behavior',
+                'validation' => 'strict'
+            ],
+            'plugins.language-selector.button_display' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.BUTTON_DISPLAY.LABEL',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_DEFAULT',
+                    'flag' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_FLAG',
+                    'name' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_NAME'
+                ],
+                'name' => 'plugins.language-selector.button_display',
+                'validation' => 'strict'
+            ],
+            'plugins.language-selector.select_display' => [
+                'type' => 'select',
+                'label' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.LABEL',
+                'default' => 'default',
+                'options' => [
+                    'default' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_DEFAULT',
+                    'flag' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_FLAG',
+                    'name' => 'PLUGINS.LANGUAGE_SELECTOR.SELECT_DISPLAY.OPT_NAME'
+                ],
+                'name' => 'plugins.language-selector.select_display',
+                'validation' => 'strict'
+            ],
             'plugins.form' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -4498,6 +4575,13 @@ return [
                     'built_in_css' => 'plugins.markdown-notices.built_in_css',
                     'base_classes' => 'plugins.markdown-notices.base_classes',
                     'level_classes' => 'plugins.markdown-notices.level_classes'
+                ],
+                'language-selector' => [
+                    'enabled' => 'plugins.language-selector.enabled',
+                    'built_in_css' => 'plugins.language-selector.built_in_css',
+                    'untranslated_pages_behavior' => 'plugins.language-selector.untranslated_pages_behavior',
+                    'button_display' => 'plugins.language-selector.button_display',
+                    'select_display' => 'plugins.language-selector.select_display'
                 ],
                 'form' => [
                     'enabled' => 'plugins.form.enabled',

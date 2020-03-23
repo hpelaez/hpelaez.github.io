@@ -1,5 +1,5 @@
 name: _error
-timestamp: 1584985709
+timestamp: 1584996465
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -23,8 +23,11 @@ particles:
   content:
     system-content-1587: 'Page Content'
   spacer:
+    spacer-7667: Spacer
     spacer-3277: Spacer
     spacer-3316: Spacer
+  custom:
+    custom-1611: 'Custom HTML'
   logo:
     logo-5479: 'Logo / Image'
   menu:
@@ -39,6 +42,7 @@ inherit:
     system-content-1587: system-content-5838
     footer: footer
     offcanvas: offcanvas
+    custom-1611: custom-5339
     spacer-3277: spacer-1481
     logo-5479: logo-6576
     spacer-3316: spacer-5683

@@ -1,0 +1,18 @@
+state: enabled
+email: henry.pelaez24@gmail.com
+fullname: 'Usuario X'
+access:
+  admin:
+    pages: 'true'
+    users: 'true'
+  site:
+    login: 'true'
+language: es
+twofa_enabled: false
+twofa_secret: 5DGBSDZRGO47J2MF7QZ2FSOYWNSGT22D
+avatar: {  }
+info: null
+groups: editor
+pw_resets:
+  - 1584990829
+hashed_password: $2y$10$VlrfanU5VBcJOKhXtpNts.2S/GWsgFXakzZsY.2X4SWXFUdKMBetK

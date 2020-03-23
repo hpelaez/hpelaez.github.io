@@ -2,7 +2,7 @@
 title: '¿Quiénes somos?'
 media_order: LOGO-DARKENED.png
 menu: '¿Quiénes somos?'
-slug: about
+slug: quienes-somos
 ---
 
 ![logo-logia](LOGO-DARKENED.png?cropResize=200,200)  

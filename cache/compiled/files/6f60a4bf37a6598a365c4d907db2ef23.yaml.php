@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/hpelaez/Workspace/project-mozart/user/config/system.yaml',
-    'modified' => 1584944615,
+    'modified' => 1584992468,
     'data' => [
         'absolute_urls' => false,
         'timezone' => NULL,

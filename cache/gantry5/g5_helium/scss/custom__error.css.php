@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom__error.css',
-    'timestamp' => 1584981981,
+    'timestamp' => 1584990660,
     'md5' => '097a42ea9fd88574d82a80ef51ec8df4',
     'variables' => [
         'accent-color-1' => '#4db2b3',

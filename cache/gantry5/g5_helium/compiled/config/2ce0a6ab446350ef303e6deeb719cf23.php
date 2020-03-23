@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1584985712,
-    'checksum' => '7b5ec5a8f4caa864fcd92c5d2f372c24',
+    'timestamp' => 1584996468,
+    'checksum' => 'a06ccec8a6c6644b392365ebbf3e09d7',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/default' => [
             'index' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/index.yaml',
-                'modified' => 1584985709
+                'modified' => 1584996465
             ],
             'layout' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/layout.yaml',
-                'modified' => 1584985709
+                'modified' => 1584996465
             ],
             'page/assets' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/page/assets.yaml',
@@ -629,7 +629,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1584985709,
+            'timestamp' => 1584996465,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -656,8 +656,12 @@ return [
             ],
             'particles' => [
                 'spacer' => [
+                    'spacer-spacer-3624' => 'Spacer',
                     'spacer-1481' => 'Spacer',
                     'spacer-5683' => 'Spacer'
+                ],
+                'custom' => [
+                    'custom-5339' => 'Custom HTML'
                 ],
                 'logo' => [
                     'logo-6576' => 'Logo / Image'
@@ -692,11 +696,15 @@ return [
             'layout' => [
                 '/navigation/' => [
                     0 => [
+                        0 => 'spacer-spacer-3624 85',
+                        1 => 'custom-5339 15'
+                    ],
+                    1 => [
                         0 => 'spacer-1481 42',
                         1 => 'logo-6576 16',
                         2 => 'spacer-5683 42'
                     ],
-                    1 => [
+                    2 => [
                         0 => 'menu-4389'
                     ]
                 ],
@@ -870,6 +878,14 @@ return [
                 ]
             ],
             'content' => [
+                'custom-5339' => [
+                    'title' => 'Custom HTML',
+                    'attributes' => [
+                        'html' => '{% include \'partials/language-selector.html.twig\' %}
+',
+                        'twig' => '1'
+                    ]
+                ],
                 'logo-6576' => [
                     'title' => 'Logo / Image',
                     'attributes' => [

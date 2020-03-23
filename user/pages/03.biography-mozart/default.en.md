@@ -2,7 +2,7 @@
 title: 'Wolfgang Amadeus Mozart Biography'
 media_order: mozart-2441276_1920.jpg
 menu: 'Mozart Biography'
-slug: biography
+slug: mozart-biography
 ---
 
 # Wolfgang Amadeus Mozart Biography

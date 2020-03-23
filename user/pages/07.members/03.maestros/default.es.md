@@ -1,4 +1,5 @@
 ---
 title: Maestros
+slug: maestro
 ---
 

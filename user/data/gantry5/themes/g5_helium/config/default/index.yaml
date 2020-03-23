@@ -1,5 +1,5 @@
 name: default
-timestamp: 1584985709
+timestamp: 1584996465
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -22,8 +22,11 @@ sections:
   offcanvas: Offcanvas
 particles:
   spacer:
+    spacer-spacer-3624: Spacer
     spacer-1481: Spacer
     spacer-5683: Spacer
+  custom:
+    custom-5339: 'Custom HTML'
   logo:
     logo-6576: 'Logo / Image'
   menu:

@@ -6,6 +6,9 @@ preset:
 layout:
   /navigation/:
     -
+      - 'spacer-spacer-3624 85'
+      - 'custom-5339 15'
+    -
       - 'spacer-1481 42'
       - 'logo-6576 16'
       - 'spacer-5683 42'
@@ -113,6 +116,11 @@ structure:
       swipe: '1'
       css3animation: '1'
 content:
+  custom-5339:
+    title: 'Custom HTML'
+    attributes:
+      html: "{% include 'partials/language-selector.html.twig' %}\n"
+      twig: '1'
   logo-6576:
     title: 'Logo / Image'
     attributes:

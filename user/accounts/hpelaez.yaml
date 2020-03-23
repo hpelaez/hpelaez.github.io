@@ -29,4 +29,4 @@ twofa_enabled: false
 twofa_secret: 5DGBSDZRGO47J2MF7QZ2FSOYWNSGT22D
 avatar: {  }
 info: null
-groups: null
+groups: administrators
