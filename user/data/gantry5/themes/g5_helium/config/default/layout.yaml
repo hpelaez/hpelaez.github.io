@@ -1,0 +1,135 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1584925573
+layout:
+  /navigation/:
+    -
+      - 'spacer-1481 42'
+      - 'logo-6576 16'
+      - 'spacer-5683 42'
+    -
+      - menu-4389
+  /header/:
+    -
+      - system-messages-1570
+  /intro/:
+    -
+      - system-content-5838
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 27': {  }
+      -
+        'mainbar 52': {  }
+      -
+        'sidebar 21': {  }
+  /footer/:
+    -
+      - copyright-4677
+  /offcanvas/:
+    -
+      - mobile-menu-1280
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'padding: 20px 0;'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: '3'
+      class: ''
+      extra: {  }
+  footer:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+      extra:
+        -
+          style: 'padding: 20px 0;'
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-6576:
+    title: 'Logo / Image'
+    attributes:
+      url: /
+      image: 'gantry-media://source/HEADER-DARKENED.png'
+      height: 120px
+      svg: ''
+      text: logo-header
+      class: 'g-logo g-logo-helium'
+    block:
+      fixed: '1'
+  menu-4389:
+    block:
+      variations: center
+  copyright-4677:
+    attributes:
+      date:
+        start: '2020'
+        end: now
+      owner: 'Logia W. A. Mozart No. 1740 de Montreal - '
+      additional:
+        text: ''
+    block:
+      variations: center
+  mobile-menu-1280:
+    title: 'Mobile Menu'

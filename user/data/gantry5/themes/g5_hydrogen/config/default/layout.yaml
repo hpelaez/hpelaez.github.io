@@ -1,0 +1,59 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1584764095
+layout:
+  /header/:
+    -
+      - logo-3604
+  /navigation/:
+    -
+      - menu-9603
+  /main/:
+    -
+      - position-breadcrumbs
+    -
+      - system-content-3056
+  /footer/:
+    -
+      - position-footer
+    -
+      - copyright-6620
+  offcanvas:
+    -
+      - mobile-menu-8369
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  logo-3604:
+    block:
+      variations: center
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  position-footer:
+    attributes:
+      key: footer
+  copyright-6620:
+    attributes:
+      owner: 'Logia Wolfgang Amadeus Mozart  Nº 1740, Montreal'
+    block:
+      variations: center
+      extra:
+        -
+          style: 'font-size: 12px'

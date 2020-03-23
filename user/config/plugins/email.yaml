@@ -1,0 +1,29 @@
+enabled: true
+from: henry.pelaez24@yahoo.es
+from_name: null
+to: henry.pelaez24@gmail.com
+to_name: Henry Pelaez
+queue:
+  enabled: false
+  flush_frequency: '* * * * *'
+  flush_msg_limit: 10
+  flush_time_limit: 100
+mailer:
+  engine: smtp
+  smtp:
+    server: smtp.gmail.com
+    port: 587
+    encryption: tls
+    user: 'henry.pelaez24@gmail.com'
+    password: 'yoickkck24'
+  sendmail:
+    bin: '/usr/sbin/sendmail -bs'
+content_type: text/html
+debug: false
+charset: null
+cc: null
+cc_name: null
+bcc: null
+reply_to: null
+reply_to_name: null
+body: null

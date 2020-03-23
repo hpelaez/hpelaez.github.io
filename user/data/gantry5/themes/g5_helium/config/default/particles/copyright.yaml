@@ -1,0 +1,11 @@
+enabled: '1'
+date:
+  start: now
+  end: now
+owner: ''
+link: ''
+target: _blank
+additional:
+  text: ''
+css:
+  class: ''

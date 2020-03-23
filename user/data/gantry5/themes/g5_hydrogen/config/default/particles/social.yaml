@@ -1,0 +1,7 @@
+enabled: '0'
+css:
+  class: social
+title: ''
+target: ''
+display: icons_only
+items: {  }
